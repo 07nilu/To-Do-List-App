@@ -139,4 +139,29 @@ ul li span:hover{
       }
     }
 
+/* Media Query for max-width 450px */
+  @media (max-width: 450px) {
+    .container {
+      padding: 10px;
+    }
+    .todo-app h2 img {
+      height: 20px;
+    }
+    .row {
+      flex-direction: column;
+      padding: 10px;
+    }
+    input {
+      margin-bottom: 10px;
+      text-align: center;
+    }
+    button {
+      padding: 10px 30px;
+    }
+    li {
+      padding: 8px;
+      margin-bottom: 5px;
+    }
+  }
+
 
