@@ -106,7 +106,7 @@ ul li span:hover{
 }
 
 /* Responsive styles */
-@media only screen and (min-width: 300px) and (max-width: 415px) {
+/* @media only screen and (min-width: 300px) and (max-width: 415px) {
     /* .container {
         margin-right: 20px; */
     
@@ -124,6 +124,19 @@ ul li span:hover{
         /* margin-right: 20px; */
     }
 }
+ */
 
+@media (max-width: 600px) {
+      .row {
+        flex-direction: column;
+        padding: 10px;
+      }
+      input {
+        margin-bottom: 10px;
+      }
+      button {
+        padding: 10px 30px;
+      }
+    }
 
 
